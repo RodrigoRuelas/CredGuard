@@ -1,0 +1,23 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.emc
+
+# Base de datos SQLite local (opcional, por si prefieres que cada entorno genere su propia BD)
+database.db
+*.db
+*.sqlite3
+
+# Archivos de entorno y configuración sensible
+.env
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
